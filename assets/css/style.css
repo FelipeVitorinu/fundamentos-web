@@ -1,0 +1,87 @@
+/*Estilos da Página index*/
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > img{
+    align-items: center;
+    justify-content: center;
+}
+
+.pfont{
+    font-size: 20px;
+    text-align: justify;
+}
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.midia{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 30px;
+   
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#menu li a:hover{
+    color:brown;
+}
+
+.p30{
+    padding: 15px;
+}
+
+.imgconfig{
+    border-radius: 50%;
+}
+
+
+/*Estilos da Página Contatos*/
+
+.ml50{
+    align-items: 50px;
+}
+
+.whgeral{
+    width: 50px;
+    height: 50px;
+}
+
+/*Estilos da Página Aesthetic*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
